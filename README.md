@@ -27,8 +27,6 @@ To run this project, ensure you have the following dependencies installed:
 pip install pandas numpy requests tensorflow sastrawiscikit-learn google_play_scraper matplotlib seaborn
 ```
 
-Additionally, Selenium requires a compatible web driver for your browser.
-
 ---
 
 ## 📂 How to Use
