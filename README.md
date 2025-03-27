@@ -39,7 +39,6 @@ pip install pandas numpy requests tensorflow sastrawiscikit-learn google_play_sc
 
 3. **Run Sentiment Inference**
    - Execute `Inference.ipynb` to classify sentiment (Positive, Neutral, Negative) using a trained NLP model.
-   - Adjust model parameters as needed for better accuracy.
 
 ---
 
