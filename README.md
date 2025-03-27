@@ -40,8 +40,25 @@ pip install pandas numpy requests google_play_scraper selenium scikit-learn matp
 
 3. **Run Sentiment Inference**
    - Execute `Inference.ipynb` to classify sentiment (Positive, Neutral, Negative) using a trained NLP model.
-
 ---
+
+🤖 Machine Learning Models & Performance
+
+We experimented with three different models for sentiment classification:
+
+| Model  | Accuracy  | Split Ratio | Feature Type |
+|----------|----------|----------|----------|
+| LSTM + Embedding (80/20)   | 94.38% | 80/20 | Word Embedding |
+| SVM + TF-IDF (80/20)   | 93.35% | 80/20 | TF-IDF |
+|RF + TF-IDF (70/30)   | 90.67% | 70/30 | TF-IDF |
+
+🔹 LSTM with Word Embedding achieved the highest accuracy (94.38%), making it the best choice for this task.
+
+🔹 SVM with TF-IDF also performed well (93.35%), providing a strong baseline model.
+
+🔹 Random Forest with TF-IDF had the lowest accuracy (90.67%), but still produced reasonable results.
+
+Further optimization and hyperparameter tuning can be explored to enhance model performance.
 
 ## 📊 Key Features
 ✅ Automated review scraping from the Google Play Store  
