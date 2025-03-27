@@ -1,21 +1,21 @@
-# Shopee Review Sentiment Analysis
+# Shopee App Review Sentiment Analysis
 
 ## 📌 Project Overview
-This project focuses on analyzing customer sentiment from Shopee reviews. The pipeline consists of three main components:
+This project focuses on analyzing user sentiment towards the Shopee app based on reviews from the Google Play Store. The pipeline consists of three main components:
 
-1. **Review Scraping** – Extracting customer reviews from Shopee.
-2. **Sentiment Analysis & Insights** – Analyzing and visualizing sentiment trends for better business insights.
-3. **Sentiment Inference** – Applying machine learning models to determine the sentiment of reviews.
+1. **Review Scraping** – Extracting user reviews from the Google Play Store.
+2. **Sentiment Analysis & Insights** – Analyzing and visualizing sentiment trends to understand user feedback.
+3. **Sentiment Inference** – Applying machine learning models to classify sentiment (Positive, Neutral, Negative).
 
-By leveraging natural language processing (NLP), this project helps businesses and researchers understand customer feedback trends and improve decision-making.
+By leveraging natural language processing (NLP), this project helps businesses and researchers gain insights into user experiences and improve app performance based on feedback.
 
 ---
 
 ## 🛠 Project Structure
 The project consists of the following Jupyter Notebook files:
 
-- **`Reviews_Scraping.ipynb`** – Web scrapes customer reviews from Shopee.
-- **`ShopeeReviewSentiment.ipynb`** – Analyzes and visualizes sentiment analysis results.
+- **`Reviews_Scraping.ipynb`** – Web scrapes user reviews from the Google Play Store.
+- **`ShopeeReviewSentiment.ipynb`** – Analyzes and visualizes sentiment trends and key insights.
 - **`Inference.ipynb`** – Applies sentiment analysis using machine learning models.
 
 ---
@@ -24,18 +24,19 @@ The project consists of the following Jupyter Notebook files:
 To run this project, ensure you have the following dependencies installed:
 
 ```bash
-pip install pandas numpy requests tensorflow sastrawiscikit-learn google_play_scraper matplotlib seaborn
+pip install pandas numpy requests google_play_scraper selenium scikit-learn matplotlib seaborn
 ```
+
 
 ---
 
 ## 📂 How to Use
 1. **Scrape Reviews**
-   - Run `Reviews_Scraping.ipynb` to collect Shopee customer reviews.
-   - Ensure proper setup for web scraping (browser driver, request limits, etc.).
+   - Run `Reviews_Scraping.ipynb` to collect Shopee app reviews from the Google Play Store.
+   - Ensure proper setup for googleplay scraping.
 
 2. **Analyze and Visualize Results**
-   - Use `ShopeeReviewSentiment.ipynb` to generate insights, visualize trends, and extract business value from the data.
+   - Use `ShopeeReviewSentiment.ipynb` to generate insights, visualize trends, and extract meaningful conclusions from user feedback.
 
 3. **Run Sentiment Inference**
    - Execute `Inference.ipynb` to classify sentiment (Positive, Neutral, Negative) using a trained NLP model.
@@ -43,9 +44,9 @@ pip install pandas numpy requests tensorflow sastrawiscikit-learn google_play_sc
 ---
 
 ## 📊 Key Features
-✅ Automated review scraping from Shopee  
+✅ Automated review scraping from the Google Play Store  
 ✅ Machine learning-based sentiment analysis  
-✅ Data visualization for meaningful insights  
+✅ Data visualization for understanding user feedback trends  
 ✅ Easy-to-use workflow with Jupyter Notebooks  
 
 ---
