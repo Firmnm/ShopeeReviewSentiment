@@ -44,7 +44,7 @@ pip install pandas numpy requests google_play_scraper selenium scikit-learn matp
 
 🤖 Machine Learning Models & Performance
 
-We experimented with three different models for sentiment classification:
+I experimented with three different models for sentiment classification:
 
 | Model  | Accuracy  | Split Ratio | Feature Type |
 |----------|----------|----------|----------|
